@@ -1,4 +1,4 @@
-import 'styles/Trends.css';
+import './styles/Trends.css';
 
 const Trends = () => {
     return (
