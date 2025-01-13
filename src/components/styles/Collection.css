@@ -1,3 +1,7 @@
+.background{
+    height: 100%;
+}
+
 .fade-in {
     animation: fadeIn 3s ease-out;
 }
