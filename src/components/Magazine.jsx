@@ -1,7 +1,6 @@
 const Magazine = ({ bookUrl }) => {
     return (
         <div className="text-center max-w-full">
-            <h1 className="text-3xl font-bold mb-4">ELLE 2021</h1>
             <div className="relative w-full pb-[56.25%] mb-8">
                 <iframe
                     src={bookUrl}
