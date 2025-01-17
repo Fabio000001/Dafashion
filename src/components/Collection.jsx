@@ -5,15 +5,15 @@ const Collection = () => {
     // Define URLs para los libros interactivos
     const collections = [
         { name: "ELLE 2021", bookUrl: "https://online.fliphtml5.com/qppnn/tkkg/" },
-        { name: "Collection 2", bookUrl: "https://example.com/interactive-book2" },
-        { name: "Collection 3", bookUrl: "https://example.com/interactive-book3" },
-        { name: "Collection 4", bookUrl: "https://example.com/interactive-book4" },
+        { name: "ELLE 2023", bookUrl: "https://online.fliphtml5.com/qppnn/mtsp/" },
+        { name: "Vogue Niños", bookUrl: "https://online.fliphtml5.com/qppnn/rmpa/" },
+        { name: "Innovamoda", bookUrl: "https://online.fliphtml5.com/qppnn/vxrb/" },
     ];
 
     return (
         <div className="py-16 px-4 bg-gray-100 background">
             <h2 className="text-4xl font-bold text-center mb-12">Nuestras Colecciones Exclusivas</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-12">
                 {collections.map((collection, index) => (
                     <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden fade-in">
                         <Magazine bookUrl={collection.bookUrl} />

@@ -7,7 +7,7 @@ const Home = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative text-center show">
                 <h1 className="text-5xl font-extrabold mb-20">Bienvenidos al Mundo de la Moda</h1>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-52'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-52'>
                     <div className="bg-gray-800 h-full rounded-lg flex flex-col justify-between mb-12">
                         <Magazine bookUrl="https://online.fliphtml5.com/qppnn/tkkg/" />
                         <div className='p-3'>
