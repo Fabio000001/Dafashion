@@ -2,12 +2,12 @@ import './styles/Trends.css';
 
 const Trends = () => {
     const trends = [
-        { name: "Pantalón City beige", imagen: "/public/trends/pantalones-city-beige.jpg" },
-        { name: "Vestido Linyer verde", imagen: "/public/trends/vestido-linyer-verde.jpg" },
-        { name: "Abrigo de doble botonadura", imagen: "/public/trends/abrigo-doble-botonadura.jpg" },
-        { name: "Vestido largo negro de manga larga", imagen: "/public/trends/vestido-largo-negro-manga-larga.avif" },
-        { name: "Zapatillas de deporte marrones", imagen: "/public/trends/zapatillas-deporte-marrones.jfif" },
-        { name: "Pulsera con cordón de oro", imagen: "/public/trends/pulsera-cordon.jpg" },
+        { name: "Pantalón City beige", imagen: "/trends/pantalones-city-beige.jpg" },
+        { name: "Vestido Linyer verde", imagen: "/trends/vestido-linyer-verde.jpg" },
+        { name: "Abrigo de doble botonadura", imagen: "/trends/abrigo-doble-botonadura.jpg" },
+        { name: "Vestido largo negro de manga larga", imagen: "/trends/vestido-largo-negro-manga-larga.avif" },
+        { name: "Zapatillas de deporte marrones", imagen: "/trends/zapatillas-deporte-marrones.jfif" },
+        { name: "Pulsera con cordón de oro", imagen: "/trends/pulsera-cordon.jpg" },
     ];
 
     return (
