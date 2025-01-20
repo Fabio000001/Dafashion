@@ -14,7 +14,7 @@ const Trends = () => {
         <div className="py-16 px-4 bg-white">
             <h2 className="text-4xl font-bold text-center">Últimas Tendencias</h2>
             <h6 className='mt-2 mb-12 text-2xl font-semibold text-center'>Las tendencias más destacadas de esta temporada. ¡No te las puedes perder!</h6>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 slide">
                 {trends.map((trend, index) => (
                     <div key={index} className="bg-gray-200 rounded-lg overflow-hidden shadow-lg border">
                         <img className="w-full h-96 object-cover cursor-pointer" src={trend.imagen} alt={trend.name} />
